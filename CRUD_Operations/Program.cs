@@ -11,7 +11,7 @@ using CRUD_Operations.Entities.Concrate;
         {
             Console.WriteLine(course.CourseName);
         }
-
+    //Comment
    Console.WriteLine("\n---------------------------------------------------\n");
     Console.WriteLine("Mevcut Kategorilerimiz:");
     CategoryManager categoryManager = new CategoryManager(new CategoryDal());
