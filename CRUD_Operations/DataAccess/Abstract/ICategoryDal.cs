@@ -11,6 +11,7 @@ namespace CRUD_Operations.DataAccess.Abstract
     {
         List<Category> GetAll();
         void Add(Course category);
+
         void Update(Course category);
         void Delete(Course category);
         void DeleteById(int id);
